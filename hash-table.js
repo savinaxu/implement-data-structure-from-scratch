@@ -31,4 +31,16 @@ class HashTable {
         this.data[idx].push([key, value])
         return this.data
     }
+
+    keys() {
+        const keysArr = []
+        for (let item of this.data) {
+            if (item) {
+                item.forEach(el => {
+                    keysArr.push(el[0])
+                })
+            }
+        }
+
+    }
 }
