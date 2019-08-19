@@ -47,21 +47,15 @@ class Arr {
     }
 }
 
-const newArr = new Arr()
+const myArray = new Arr()
+myArray.push('hi');
+myArray.push('you');
+myArray.push('!');
+myArray.pop();
+myArray.deleteAtIndex(0);
+myArray.push('are');
+myArray.push('nice');
+myArray.shiftItems(0);
+console.log(myArray);
 
-newArr.push(1)
-newArr.push(2)
-newArr.push(3)
-newArr.push(4)
-newArr.print() // [1, 2, 3, 4]
-console.log(newArr.get(2)); // 3
-console.log(newArr.indexOf(3)); // 2
-console.log(newArr.len()); // 4
-newArr.delete(2);
-newArr.print(); // [1, 2, 4]
-newArr.push(5);
-newArr.push(5);
-newArr.print(); // [ 1, 2, 4, 5, 5 ]
-newArr.shiftItem(2);
-newArr.print(); // [ 1, 2, 5, 5 ]
 
