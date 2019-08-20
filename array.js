@@ -34,8 +34,6 @@ class Arr {
             this.data[i] = this.data[i+1]
         }
         this.pop()
-        // this.length--
-        // delete this.data[this.length]
     }
 
     len() {
