@@ -19,3 +19,13 @@ This repository contains JavaScript based examples of many popular data structur
  - get(key) // return the value of the given key
  - set(key, value) // insert the key-value pair
  - keys() // get all the keys
+
+ ## [Singly linked list](./singly-linked-list.js)
+
+ - append(value)  // set the hash
+ - prepend(value) // return the value of the given key
+ - traverseToIndex(index) // search the value of given index
+ - insert(index, value) // insert the value to i-th node
+ - remove(index) // remove the i-th node
+ - reverse()
+ - printList()
