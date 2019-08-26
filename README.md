@@ -29,3 +29,13 @@ This repository contains JavaScript based examples of many popular data structur
  - remove(index) // remove the i-th node
  - reverse()
  - printList()
+
+  ## [Doubly linked list](./doubly-linked-list.js)
+
+ - append(value)  // set the hash
+ - prepend(value) // return the value of the given key
+ - traverseToIndex(index) // search the value of given index
+ - insert(index, value) // insert the value to i-th node
+ - remove(index) // remove the i-th node
+ - reverse()
+ - printList()
