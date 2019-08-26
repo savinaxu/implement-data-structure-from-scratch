@@ -24,14 +24,14 @@ class Arr {
     }
 
     delete(index) {
-        const item =  this.data[index]
+        const item = this.data[index]
         this.shiftItem(index)
         return item
     }
 
     shiftItem(index) {
-        for(let i = index; i < this.length - 1; i++) {
-            this.data[i] = this.data[i+1]
+        for (let i = index; i < this.length - 1; i++) {
+            this.data[i] = this.data[i + 1]
         }
         this.pop()
     }
@@ -55,5 +55,3 @@ myArray.push('are');
 myArray.push('nice');
 myArray.shiftItems(0);
 console.log(myArray);
-
-
